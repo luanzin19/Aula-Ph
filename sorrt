@@ -1,0 +1,10 @@
+#1 - Crie uma lista de notas, e exiba-a da menor para a maior
+notas = [2,10, 9, 4, 7, 3, 8]
+nomes = ['Ademar', 'Maristênio', 'Asdrúbal', 'Leo']
+#notas.sort()
+nomes.sort(reverse=True)
+#2 - Crie uma lista de nomes de frutas e ordene-a em ordem decrescente
+
+nomes
+     
+['Maristênio', 'Leo', 'Asdrúbal', 'Ademar']
