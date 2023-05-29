@@ -1,0 +1,26 @@
+#Criando Listas
+lista_vazia = []
+
+#Lista com elementos
+lista_Com_coisas = [2, 4, 3, 'quatro', 'cinco']
+     
+
+#Acessando Elementos da lista
+lista = [1, 2, 3, "quatro", "cinco"]
+
+print(lista[0])  # 1
+print(lista[3])  # "quatro"
+print(lista[-1]) # "cinco"
+     
+     
+     nomes = ['ze', 'tião', 'joaquim']
+nomes.append('julia')
+
+#vários valores
+outrosNomes = ['Ana', 'Zabé', 'Maria']
+nomes.extend(outrosNomes)
+
+nomes
+
+     
+['ze', 'tião', 'joaquim', 'julia', 'Ana', 'Zabé', 'Maria']
