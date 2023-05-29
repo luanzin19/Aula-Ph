@@ -1,0 +1,24 @@
+#Pegar os preços de uma lista
+#adicionar 2 a cada um deles
+newPrecos = list(map(lambda x : x+2, precos))
+newPrecos
+     
+
+notas = [6, 7, 3.5, 9, 6.5]
+#quero apenas os aprovados.... 
+aprovados = list(filter(lambda x : x<=7, map(lambda x : x+1, notas )))
+aprovados
+
+
+#Pegar os números de uma lista
+#Criar outra lista com o dobro
+nums = [6, 5, 2, 1, 7]
+def dobro(lista):
+  dobrolista = []
+  for n in lista:
+    dobrolista.append(n*2)
+  return dobrolista
+
+dobro(nums)
+     
+[12, 10, 4, 2, 14]
